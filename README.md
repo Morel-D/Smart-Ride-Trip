@@ -5,3 +5,5 @@ The of this app is to enble motobyke to track client once they request of a ride
 
 status : Incomplete
 Tools : Java & firebase
+
+Apk Location: app\build\outputs\apk\debug
