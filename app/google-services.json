@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "796751395861",
+    "project_id": "smart-ride-trip",
+    "storage_bucket": "smart-ride-trip.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796751395861:android:fe2ef30377f78ab865221c",
+        "android_client_info": {
+          "package_name": "com.example.smarttripride__login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796751395861-u2f5orud4rj67n2o83ruj69tdkpcom1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIzZa5u7b6AfLuDU-5aDX0aY41bEkai90"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796751395861-u2f5orud4rj67n2o83ruj69tdkpcom1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

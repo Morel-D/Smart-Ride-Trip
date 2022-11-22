@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Success_page">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALL DONE !"
+        android:textStyle="bold"
+        android:textSize="45dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="43dp"
+        android:textColor="#339999">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your account has been"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="23dp"
+        android:textColor="#787878">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="#FF787878">
+    </TextView>
+
+
+    <ImageView
+        android:id="@+id/success_check"
+        android:layout_width="260dp"
+        android:layout_height="221dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="82dp"
+        android:src="@drawable/success">
+    </ImageView>
+
+
+    <Button
+        android:id="@+id/btn_success"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="110dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Continue"
+        android:textColor="@color/white"></Button>
+
+
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".Client_SignUp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:padding="14dp">
+    </ImageView>
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="146dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="Sign up as "
+            android:textSize="20dp"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:text=" CLIENT"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to continue"
+        android:textSize="20dp"
+        android:layout_gravity="center">
+    </TextView>
+
+    <EditText
+        android:id="@+id/C_user_name"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:hint="UserName"
+        tools:ignore="InvalidId"></EditText>
+
+    <EditText
+        android:id="@+id/C_email"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        tools:ignore="InvalidId">
+    </EditText>
+    <EditText
+        android:id="@+id/C_phone"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:hint="Phone Number">
+    </EditText>
+
+    <EditText
+        android:id="@+id/C_password"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+
+    <Button
+        android:id="@+id/C_signUp_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Sign Up"
+        android:textColor="@color/white">
+    </Button>
+
+
+
+
+
+</LinearLayout>
